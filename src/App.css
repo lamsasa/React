@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+table{
+  border-collapse: collapse;
+}
+th, td{
+  border: 1px solid #ccc;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
