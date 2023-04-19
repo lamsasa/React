@@ -1,8 +1,8 @@
 import './App.css';
 import About from './pages/About';
 import Profile from './pages/Profiles';
-import Home from './pages/Home';
 import Login from './pages/Login';
+import Home from './pages/Home';
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 //<Route path="주소 규칙" element={보여줄 컴포넌트 jsx} />

@@ -4,7 +4,7 @@ import { Link, useNavigate, Navigate } from "react-router-dom";
 const Home = () => {
 
     const nav = useNavigate();
-    const isLogin = false;
+    const isLogin = true;
 
     if(!isLogin) {
         return<Navigate to = "/Login" replace ={true} />;
